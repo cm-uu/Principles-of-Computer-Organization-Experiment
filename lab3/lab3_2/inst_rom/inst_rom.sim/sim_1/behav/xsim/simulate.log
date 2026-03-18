@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 130 ns : File "D:/compute_lab/lab3_2/inst_rom/inst_rom.srcs/sim_1/new/tb_inst_rom_top.v" Line 78

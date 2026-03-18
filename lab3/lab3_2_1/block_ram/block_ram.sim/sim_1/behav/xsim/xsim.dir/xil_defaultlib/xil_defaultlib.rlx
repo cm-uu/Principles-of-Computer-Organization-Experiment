@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab3_2_1/block_ram/block_ram.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab3_2_1/block_ram/block_ram.srcs/sim_1/new/tb3_2_1.v,1745144932,verilog,,,,tb3_2_1,,,,,,,,
+D:/compute_lab/lab3_2_1/block_ram/block_ram.srcs/sources_1/ip/block_ram/sim/block_ram.v,1744634721,verilog,,D:/compute_lab/lab3_2_1/block_ram/block_ram.srcs/sources_1/new/tongbu_ram.v,,block_ram,,,,,,,,
+D:/compute_lab/lab3_2_1/block_ram/block_ram.srcs/sources_1/new/tongbu_ram.v,1744635018,verilog,,D:/compute_lab/lab3_2_1/block_ram/block_ram.srcs/sim_1/new/tb3_2_1.v,,tongbu_ram,,,,,,,,

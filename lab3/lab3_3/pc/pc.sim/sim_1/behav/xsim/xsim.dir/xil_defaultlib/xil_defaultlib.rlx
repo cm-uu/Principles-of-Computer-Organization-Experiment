@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab3_3/pc/pc.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab3_3/pc/pc.srcs/sim_1/new/tb_pc.v,1745121893,verilog,,,,tb_pc,,,,,,,,
+D:/compute_lab/lab3_3/pc/pc.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,1744874473,verilog,,D:/compute_lab/lab3_3/pc/pc.srcs/sources_1/new/pc.v,,inst_rom,,,,,,,,
+D:/compute_lab/lab3_3/pc/pc.srcs/sources_1/new/pc.v,1745152019,verilog,,D:/compute_lab/lab3_3/pc/pc.srcs/sim_1/new/tb_pc.v,,pc,,,,,,,,

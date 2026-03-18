@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sources_1/ip/distributed_ram/sim/distributed_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distributed_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sources_1/new/ram_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

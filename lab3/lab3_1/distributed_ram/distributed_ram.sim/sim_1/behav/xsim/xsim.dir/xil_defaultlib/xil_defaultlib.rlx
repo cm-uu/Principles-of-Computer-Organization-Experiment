@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab3_1/distributed_ram/distributed_ram.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sim_1/new/tb_top.v,1745144832,verilog,,,,tb_top,,,,,,,,
+D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sources_1/ip/distributed_ram/sim/distributed_ram.v,1744292672,verilog,,D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sources_1/new/ram_top.v,,distributed_ram,,,,,,,,
+D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sources_1/new/ram_top.v,1745130270,verilog,,D:/compute_lab/lab3_1/distributed_ram/distributed_ram.srcs/sim_1/new/tb_top.v,,ram_top,,,,,,,,

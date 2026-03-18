@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab3_2_2/block_rom/block_rom.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab3_2_2/block_rom/block_rom.srcs/sim_1/new/tb_top_rom.v,1745138365,verilog,,,,tb_top_rom,,,,,,,,
+D:/compute_lab/lab3_2_2/block_rom/block_rom.srcs/sources_1/ip/block_rom/sim/block_rom.v,1745287351,verilog,,D:/compute_lab/lab3_2_2/block_rom/block_rom.srcs/sources_1/new/top_rom.v,,block_rom,,,,,,,,
+D:/compute_lab/lab3_2_2/block_rom/block_rom.srcs/sources_1/new/top_rom.v,1744719160,verilog,,D:/compute_lab/lab3_2_2/block_rom/block_rom.srcs/sim_1/new/tb_top_rom.v,,top_rom,,,,,,,,

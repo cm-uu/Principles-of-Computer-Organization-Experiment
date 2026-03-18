@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 22 09:55:27 2025
+# Process ID: 20728
+# Current directory: D:/compute_lab/lab3_1/distributed_ram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21416 D:\compute_lab\lab3_1\distributed_ram\distributed_ram.xpr
+# Log file: D:/compute_lab/lab3_1/distributed_ram/vivado.log
+# Journal file: D:/compute_lab/lab3_1/distributed_ram\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab3_1/distributed_ram/distributed_ram.xpr
+update_compile_order -fileset sources_1
