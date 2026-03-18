@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../shiyan5.srcs/sources_1/new/adder.v" \
+"../../../../shiyan5.srcs/sources_1/new/alu.v" \
+"../../../../rtl/CONFREG/confreg.v" \
+"../../../../shiyan5.srcs/sources_1/new/decoder3_8.v" \
+"../../../../shiyan5.srcs/sources_1/new/faster_adder_32bit.v" \
+"../../../../miniCPU/minicpu_top.v" \
+"../../../../miniCPU/regfile.v" \
+"../../../../rtl/soc_mini_top.v" \
+"../../../../miniCPU/tools.v" \
+"../../../../mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

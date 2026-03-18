@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Apr 18 18:31:32 2025
+# Process ID: 29228
+# Current directory: D:/compute_lab/lab4-1/lab4-1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21180 D:\compute_lab\lab4-1\lab4-1\lab4-1.xpr
+# Log file: D:/compute_lab/lab4-1/lab4-1/vivado.log
+# Journal file: D:/compute_lab/lab4-1/lab4-1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab4-1/lab4-1/lab4-1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/developp/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 18 22:32:03 2025...

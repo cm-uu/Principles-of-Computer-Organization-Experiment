@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr 21 10:23:14 2025
+# Process ID: 8788
+# Current directory: D:/compute_lab/lab4_2/pc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6096 D:\compute_lab\lab4_2\pc\pc.xpr
+# Log file: D:/compute_lab/lab4_2/pc/vivado.log
+# Journal file: D:/compute_lab/lab4_2/pc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab4_2/pc/pc.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_pc [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+source tb_pc.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_pc.tcl
+save_wave_config {D:/compute_lab/lab4_2/pc/tb_pc_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/compute_lab/lab4_2/pc/tb_pc_behav.wcfg
+set_property xsim.view D:/compute_lab/lab4_2/pc/tb_pc_behav.wcfg [get_filesets sim_1]
+close_sim

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/lenovo/Desktop/minicpu_env/soc_verify/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../pc.srcs/sources_1/new/adder_4bit.v" \
+"../../../../pc.srcs/sources_1/new/fast_adder_32bit.v" \
+"../../../../pc.srcs/sources_1/new/pc.v" \
+"../../../../pc.srcs/sources_1/new/regfile.v" \
+"../../../../pc.srcs/sources_1/new/pc_display.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
