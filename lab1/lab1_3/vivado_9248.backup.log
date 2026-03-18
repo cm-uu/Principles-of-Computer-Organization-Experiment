@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Apr 13 16:34:11 2025
+# Process ID: 9248
+# Current directory: D:/compute_lab/lab1_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26588 D:\compute_lab\lab1_3\lab1_3.xpr
+# Log file: D:/compute_lab/lab1_3/vivado.log
+# Journal file: D:/compute_lab/lab1_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab1_3/lab1_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/developp/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:15 . Memory (MB): peak = 850.422 ; gain = 143.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/compute_lab/lab1_3/lab1_3.srcs/constrs_1/new/LAB1_3.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/compute_lab/lab1_3/lab1_3.srcs/constrs_1/new/LAB1_3.xdc
+close [ open D:/compute_lab/lab1_3/lab1_3.srcs/constrs_1/new/lab3_1.xdc w ]
+add_files -fileset constrs_1 D:/compute_lab/lab1_3/lab1_3.srcs/constrs_1/new/lab3_1.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Apr 13 16:36:24 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab1_3/lab1_3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Sun Apr 13 16:38:30 2025] Launched impl_1...
+Run output will be captured here: D:/compute_lab/lab1_3/lab1_3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a200tfbg676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1151.043 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1849.527 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1849.527 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1849.527 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 2052.645 ; gain = 1190.004
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+place_ports clk AC19
+place_ports input_sel AC21
+set_property IOSTANDARD LVCMOS33 [get_ports [list input_sel]]
+place_ports led_cout H7
+set_property IOSTANDARD LVCMOS33 [get_ports [list led_cout]]
+set_property target_constrs_file D:/compute_lab/lab1_3/lab1_3.srcs/constrs_1/new/lab3_1.xdc [current_fileset -constrset]
+save_constraints -force
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 13 16:43:29 2025...

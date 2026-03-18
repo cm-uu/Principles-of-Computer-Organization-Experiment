@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 24 11:25:18 2025
+# Process ID: 22792
+# Current directory: E:/Vivado labs/lab6_3_all
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18004 E:\Vivado labs\lab6_3_all\lab6_3_2adder.xpr
+# Log file: E:/Vivado labs/lab6_3_all/vivado.log
+# Journal file: E:/Vivado labs/lab6_3_all\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Vivado labs/lab6_3_all/lab6_3_2adder.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/developp/Vivado labs/lab6_3_all' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/Vivado labs/lab6/lab6_1/lcd_module.dcp', nor could it be found using path 'D:/developp/Vivado labs/lab6/lab6_1/lcd_module.dcp'.
+WARNING: [Project 1-865] Could not find the file E:/Vivado labs/lab6/lab6_1/lcd_module.dcp
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/developp/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 771.879 ; gain = 96.621
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 24 11:48:40 2025...

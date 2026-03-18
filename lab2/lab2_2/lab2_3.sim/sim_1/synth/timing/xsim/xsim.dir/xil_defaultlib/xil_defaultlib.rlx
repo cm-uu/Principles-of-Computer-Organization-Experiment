@@ -1,0 +1,5 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab2_2/lab2_3.sim/sim_1/synth/timing/xsim/regfile_display_time_synth.v,1743495234,verilog,,,,IOBUF_HD1;IOBUF_UNIQ_BASE_;blk_mem_gen_generic_cstr;blk_mem_gen_prim_width;blk_mem_gen_prim_wrapper_init;blk_mem_gen_top;blk_mem_gen_v8_2;blk_mem_gen_v8_2_synth;glbl;lcd_draw;lcd_init;lcd_module;lcd_rom;regfile;regfile_display;touch_module,,,,,,,,

@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/compute_lab/lab2_2/lab2_3.sim/sim_1/synth/timing/xsim/regfile_display_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IOBUF_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module IOBUF_HD1
+INFO: [VRFC 10-311] analyzing module lcd_draw
+INFO: [VRFC 10-311] analyzing module lcd_init
+INFO: [VRFC 10-311] analyzing module lcd_module
+INFO: [VRFC 10-311] analyzing module lcd_rom
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module regfile_display
+INFO: [VRFC 10-311] analyzing module touch_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module glbl

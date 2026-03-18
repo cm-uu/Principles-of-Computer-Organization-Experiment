@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr  1 17:55:36 2025
+# Process ID: 20960
+# Current directory: D:/compute_lab/lab2_2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24068 D:\compute_lab\lab2_2_2\lab2_1_1.xpr
+# Log file: D:/compute_lab/lab2_2_2/vivado.log
+# Journal file: D:/compute_lab/lab2_2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab2_2_2/lab2_1_1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/compute_lab/lab2_1_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/developp/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 811.363 ; gain = 101.590
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Apr  1 18:01:43 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Apr  1 18:03:21 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Apr  1 18:04:26 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 8
+[Tue Apr  1 18:04:34 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Apr  1 18:05:02 2025] Launched impl_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a200tfbg676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1197.102 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 437 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1910.973 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1910.973 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1910.973 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 2130.480 ; gain = 1235.746
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+place_ports clkk Y6
+set_property IOSTANDARD LVCMOS33 [get_ports [list clkk]]
+set_property target_constrs_file D:/compute_lab/lab2_2_2/lab2_1_1.srcs/constrs_1/new/lab2_1_1.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Apr  1 18:07:19 2025] Launched impl_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/regfile_display.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/regfile_display.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3551.109 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Apr  1 18:10:36 2025] Launched synth_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/synth_1/runme.log
+[Tue Apr  1 18:10:36 2025] Launched impl_1...
+Run output will be captured here: D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {D:/compute_lab/lab2_2_2/lab2_1_1.runs/impl_1/regfile_display.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3575.465 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  1 18:14:15 2025...

@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab1_2/lab1_2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab1_2/lab1_2.srcs/sim_1/new/lab1_2_tb.v,1743433709,verilog,,,,lab1_2_tb,,,,,,,,
+D:/compute_lab/lab1_2/lab1_2.srcs/sources_1/new/buma.v,1743432638,verilog,,D:/compute_lab/lab1_2/lab1_2.srcs/sim_1/new/lab1_2_tb.v,,adder_32bit;buma;full_adder,,,,,,,,
+D:/compute_lab/lab1_2/lab1_2.srcs/sources_1/new/lab1_2_display.v,1743433005,verilog,,,,lab1_2_display,,,,,,,,

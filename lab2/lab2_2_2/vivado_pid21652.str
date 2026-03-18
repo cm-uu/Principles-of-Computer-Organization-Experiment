@@ -1,0 +1,229 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 21652
+License: Customer
+
+Current time: 	Tue Apr 01 17:39:04 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2880x1800
+Screen resolution (DPI): 200
+Available screens: 1
+Available disk space: 79 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/developp/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/developp/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lenovo
+User home directory: C:/Users/lenovo
+User working directory: D:/compute_lab/lab2_2_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/developp/Vivado
+HDI_APPROOT: D:/developp/Vivado/2019.2
+RDI_DATADIR: D:/developp/Vivado/2019.2/data
+RDI_BINDIR: D:/developp/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/developp/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/compute_lab/lab2_2_1/vivado.log
+Vivado journal file location: 	D:/compute_lab/lab2_2_1/vivado.jou
+Engine tmp dir: 	D:/compute_lab/lab2_2_1/.Xil/Vivado-21652-LAPTOP-6OFK5A0R
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/developp/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/developp/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/developp/Vivado/2019.2
+XILINX_VIVADO: D:/developp/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/developp/Vivado/2019.2
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 837 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\compute_lab\lab2_2_1\lab2_1_1.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/compute_lab/lab2_2_1/lab2_1_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+96036kb) [00:00:18]
+// [Engine Memory]: 796 MB (+683608kb) [00:00:18]
+// [GUI Memory]: 110 MB (+12321kb) [00:00:18]
+// [GUI Memory]: 135 MB (+20398kb) [00:00:18]
+// [Engine Memory]: 837 MB (+662kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  2185 ms.
+// Tcl Message: open_project D:/compute_lab/lab2_2_1/lab2_1_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/compute_lab/lab2_1_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/developp/Vivado/2019.2/data/ip'. 
+// Project name: lab2_1_1; location: D:/compute_lab/lab2_2_1; part: xc7a200tfbg676-1
+// HMemoryUtils.trashcanNow. Engine heap size: 837 MB. GUI used memory: 74 MB. Current time: 4/1/25, 5:39:05 PM CST
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, regfile_display (regfile_display.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, regfile_display (regfile_display.v), rf_module : regfile (regfile.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, regfile_display (regfile_display.v), rf_module : regfile (regfile.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("regfile.v", 779, 333); // ch (w, cr)
+selectCodeEditor("regfile.v", 844, 350); // ch (w, cr)
+// Elapsed time: 26 seconds
+selectCodeEditor("regfile.v", 287, 509); // ch (w, cr)
+selectCodeEditor("regfile.v", 14, 494); // ch (w, cr)
+// Elapsed time: 112 seconds
+selectCodeEditor("regfile.v", 476, 275); // ch (w, cr)
+selectCodeEditor("regfile.v", 480, 120); // ch (w, cr)
+selectCodeEditor("regfile.v", 568, 519); // ch (w, cr)
+selectCodeEditor("regfile.v", 751, 554); // ch (w, cr)
+selectCodeEditor("regfile.v", 717, 533); // ch (w, cr)
+selectCodeEditor("regfile.v", 687, 526); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("regfile.v", 491, 344); // ch (w, cr)
+selectCodeEditor("regfile.v", 824, 457); // ch (w, cr)
+selectCodeEditor("regfile.v", 379, 434); // ch (w, cr)
+selectCodeEditor("regfile.v", 460, 601); // ch (w, cr)
+selectCodeEditor("regfile.v", 467, 95); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("regfile.v", 644, 440); // ch (w, cr)
+selectCodeEditor("regfile.v", 411, 285); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("regfile.v", 1, 126); // ch (w, cr)
+typeControlKey((HResource) null, "regfile.v", 'c'); // ch (w, cr)
+// Elapsed time: 32 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("regfile.v", 703, 863); // ch (w, cr)
+selectCodeEditor("regfile.v", 982, 591); // ch (w, cr)
+selectCodeEditor("regfile.v", 489, 588); // ch (w, cr)
+selectCodeEditor("regfile.v", 489, 588); // ch (w, cr)
+selectCodeEditor("regfile.v", 977, 583); // ch (w, cr)
+selectCodeEditor("regfile.v", 482, 585); // ch (w, cr)
+selectCodeEditor("regfile.v", 889, 600); // ch (w, cr)
+selectCodeEditor("regfile.v", 654, 596); // ch (w, cr)
+selectCodeEditor("regfile.v", 1203, 588); // ch (w, cr)
+selectCodeEditor("regfile.v", 1050, 529); // ch (w, cr)
+selectCodeEditor("regfile.v", 795, 428); // ch (w, cr)
+selectCodeEditor("regfile.v", 755, 360); // ch (w, cr)
+selectCodeEditor("regfile.v", 771, 539); // ch (w, cr)
+selectCodeEditor("regfile.v", 672, 357); // ch (w, cr)
+selectCodeEditor("regfile.v", 381, 425); // ch (w, cr)
+selectCodeEditor("regfile.v", 777, 516); // ch (w, cr)
+selectCodeEditor("regfile.v", 768, 583); // ch (w, cr)
+selectCodeEditor("regfile.v", 768, 583); // ch (w, cr)
+selectCodeEditor("regfile.v", 786, 660); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("regfile.v", 765, 726); // ch (w, cr)
+selectCodeEditor("regfile.v", 781, 833); // ch (w, cr)
+// Elapsed time: 21 seconds
+selectCodeEditor("regfile.v", 779, 902); // ch (w, cr)
+selectCodeEditor("regfile.v", 788, 994); // ch (w, cr)
+selectCodeEditor("regfile.v", 780, 1072); // ch (w, cr)
+selectCodeEditor("regfile.v", 766, 830); // ch (w, cr)
+selectCodeEditor("regfile.v", 779, 905); // ch (w, cr)
+selectCodeEditor("regfile.v", 681, 1006); // ch (w, cr)
+selectCodeEditor("regfile.v", 786, 981); // ch (w, cr)
+selectCodeEditor("regfile.v", 780, 1071); // ch (w, cr)
+selectCodeEditor("regfile.v", 774, 589); // ch (w, cr)
+selectCodeEditor("regfile.v", 439, 589); // ch (w, cr)
+selectCodeEditor("regfile.v", 766, 658); // ch (w, cr)
+selectCodeEditor("regfile.v", 758, 738); // ch (w, cr)
+selectCodeEditor("regfile.v", 764, 820); // ch (w, cr)
+selectCodeEditor("regfile.v", 774, 913); // ch (w, cr)
+// Elapsed time: 24 seconds
+selectCodeEditor("regfile.v", 5, 672); // ch (w, cr)
+// Elapsed time: 36 seconds
+selectCodeEditor("regfile.v", 55, 428); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("regfile.v", 21, 684); // ch (w, cr)
+typeControlKey((HResource) null, "regfile.v", 'v'); // ch (w, cr)
+selectCodeEditor("regfile.v", 179, 423); // ch (w, cr)
+selectCodeEditor("regfile.v", 537, 248); // ch (w, cr)
+selectCodeEditor("regfile.v", 167, 423); // ch (w, cr)
+selectCodeEditor("regfile.v", 726, 587); // ch (w, cr)
+selectCodeEditor("regfile.v", 338, 715); // ch (w, cr)
+selectCodeEditor("regfile.v", 303, 513); // ch (w, cr)
+selectCodeEditor("regfile.v", 585, 831); // ch (w, cr)
+selectCodeEditor("regfile.v", 384, 505); // ch (w, cr)
+// Elapsed time: 69 seconds
+selectCodeEditor("regfile.v", 456, 817); // ch (w, cr)
+selectCodeEditor("regfile.v", 267, 679); // ch (w, cr)
+selectCodeEditor("regfile.v", 130, 702); // ch (w, cr)
+// Elapsed time: 15 seconds
+selectCodeEditor("regfile.v", 218, 659); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("regfile.v", 851, 763); // ch (w, cr)
+// Elapsed time: 48 seconds
+selectCodeEditor("regfile.v", 757, 734); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("regfile.v", 524, 659); // ch (w, cr)
+selectCodeEditor("regfile.v", 109, 365); // ch (w, cr)
+typeControlKey((HResource) null, "regfile.v", 'v'); // ch (w, cr)
+selectCodeEditor("regfile.v", 30, 439); // ch (w, cr)
+selectCodeEditor("regfile.v", 373, 547); // ch (w, cr)
+selectCodeEditor("regfile.v", 535, 746); // ch (w, cr)
+selectCodeEditor("regfile.v", 244, 438); // ch (w, cr)
+// Elapsed time: 55 seconds
+selectCodeEditor("regfile.v", 894, 228); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("regfile.v", 645, 523); // ch (w, cr)
+selectCodeEditor("regfile.v", 351, 771); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (f, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("regfile.v", 513, 652); // ch (w, cr)
+selectCodeEditor("regfile.v", 390, 597); // ch (w, cr)
+selectCodeEditor("regfile.v", 390, 597); // ch (w, cr)
+selectCodeEditor("regfile.v", 284, 616); // ch (w, cr)
+selectCodeEditor("regfile.v", 113, 72); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (f, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("regfile.v", 287, 131); // ch (w, cr)
+selectCodeEditor("regfile.v", 467, 782); // ch (w, cr)

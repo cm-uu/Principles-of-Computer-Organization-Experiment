@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 24 14:07:53 2025
+# Process ID: 19180
+# Current directory: D:/compute_lab/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12836 D:\compute_lab\lab1\lab1.xpr
+# Log file: D:/compute_lab/lab1/vivado.log
+# Journal file: D:/compute_lab/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/compute_lab/lab1/lab1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files D:/compute_lab/lab6_1/lcd_module.dcp] -no_script -reset -force -quiet
+remove_files  D:/compute_lab/lab6_1/lcd_module.dcp
+add_files -norecurse D:/compute_lab/lab6_1/lcd_module.dcp
+update_compile_order -fileset sources_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source testbench.tcl
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {lcd_data_io[15]} {lcd_data_io[14]} {lcd_data_io[13]} {lcd_data_io[12]} {lcd_data_io[11]} {lcd_data_io[10]} {lcd_data_io[9]} {lcd_data_io[8]} {lcd_data_io[7]} {lcd_data_io[6]} {lcd_data_io[5]} {lcd_data_io[4]} {lcd_data_io[3]} {lcd_data_io[2]} {lcd_data_io[1]} {lcd_data_io[0]}]]
+place_ports {lcd_data_io[15]} J16
+place_ports {lcd_data_io[14]} H24
+place_ports {lcd_data_io[13]} G21
+place_ports {lcd_data_io[12]} G22
+place_ports {lcd_data_io[11]} F22
+place_ports {lcd_data_io[10]} M14
+place_ports {lcd_data_io[9]} L14
+set_property package_pin "" [get_ports [list  {lcd_data_io[8]}]]
+place_ports {lcd_data_io[8]} M16
+place_ports {lcd_data_io[7]} M15
+place_ports {lcd_data_io[6]} L15
+place_ports {lcd_data_io[5]} L18
+place_ports {lcd_data_io[4]} L17
+place_ports {lcd_data_io[3]} M17
+place_ports {lcd_data_io[2]} J20
+place_ports {lcd_data_io[1]} K17
+place_ports {lcd_data_io[0]} H9
+place_ports ct_int L19
+place_ports ct_sda J24
+place_ports ct_scl H21
+place_ports ct_rstn G24
+place_ports lcd_rst J25
+place_ports lcd_cs K16
+place_ports lcd_cs H18
+place_ports lcd_rs K16
+place_ports lcd_wr L8
+place_ports lcd_rd K8
+place_ports lcd_bl_ctr J15
+place_ports sw_cin Y6
+place_ports input_sel AC21
+place_ports clk AC19
+place_ports led_cout H7
+place_ports resetn Y3
+file mkdir D:/compute_lab/lab1/lab1.srcs/constrs_1/new
+close [ open D:/compute_lab/lab1/lab1.srcs/constrs_1/new/ADDER.xdc w ]
+add_files -fileset constrs_1 D:/compute_lab/lab1/lab1.srcs/constrs_1/new/ADDER.xdc
+set_property target_constrs_file D:/compute_lab/lab1/lab1.srcs/constrs_1/new/ADDER.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list ct_int]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ct_rstn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list resetn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_wr]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_rst]]
+set_property IOSTANDARD LVCMOS25 [get_ports [list lcd_rd]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_cs]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_rd]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_rs]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list input_sel]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list lcd_bl_ctr]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ct_sda]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ct_scl]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list led_cout]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sw_cin]]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+close_sim

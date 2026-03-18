@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/compute_lab/lab2_3/lab2_3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/compute_lab/lab2_3/lab2_3.srcs/sim_1/new/tb.v,1744268963,verilog,,,,tb,,,,,,,,
+D:/compute_lab/lab2_3/lab2_3.srcs/sources_1/new/regfile.v,1744968105,verilog,,D:/compute_lab/lab2_3/lab2_3.srcs/sim_1/new/tb.v,,adder;adder_4bit;decoder_5_32;regfile,,,,,,,,
